@@ -60,9 +60,10 @@ nav li a {
 main {
   display: block;
   margin: 1% 1% 15%;
-  padding: 1%;
+  padding: 2%;
   font-family: 'Crimson Pro', sans-serif;
   font-size: 1.5em;
+  overflow: auto;
 }
 
 #image {
@@ -75,8 +76,7 @@ margin-bottom: 1%;
 /* Style rules for footer content */
 footer {
   text-align: center;
-  font-size: 0.70em;
-  margin-top: 2em;
+  font-size: 0.85em;
   color: #e3eaf8;
   backround-color: #1d396d;
   padding: 1% 0%;
