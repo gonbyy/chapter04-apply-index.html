@@ -4,7 +4,7 @@
   Date: 3/1/2026
 */
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3 {
+body, header, nav, main, footer, h1, div, img, ul{
   margin: 0;
   padding: 0;
   border: 0;
@@ -12,7 +12,7 @@ body, header, nav, main, footer, img, h1, h3 {
 
 /* Style rule for body and image */
 body {
-  background-color: #e3eaf8;
+  background-color: #e4f1f6;
 }
 
 img {
@@ -24,71 +24,52 @@ img {
 header h1 {
   text-align: center;
   font-size: 3em;
-  font-family: Georgia, Times, serif;
+  font-family: Georgia, 'Times New Roman',Times, serif;
   padding: 3%;
   color: #101a2d;
 }
 
 /* Style rules for Navigation area*/
 nav {
-  background-color: #1d396d;
+  padding: 1%;
+  margin-bottom: 1%;
+  background-color: #e67afcb;
+  position: sticky;
+  top:0;
 }
 nav ul {
   list-style-type: none;
-  margin: 0;
   text-align: center;
 }
 nav li {
   display: inline-block;
   font-size: 1.5em;
-  font-family: Verdana, Arial, sans-serif;
-  font-weight: bold;
+  font-family: '8612', sans-serif;
+  padding: 4%;
 }
 nav li a {
   display: block;
-  color: #e3eaf8;
-  padding: 0.5em 2em;
+  color: #092834;
   text-decoration: none;
 }
 
 /*Style rules for main content */
 main {
-  padding: 2%;
-  font-family: Geneva, Arial, sans-serif;
-  overflow: auto;
-}
-main p {
-  font-size: 1.25em;
-}
-main h3 {
-  padding-top: 2%;
-  font-size: 2em;
-}
-#image {
-  width: 45%;
-  float: left;
+  display: block;
+  margin: 1% 1% 15%;
   padding: 1%;
+  font-family: 'Crimson Pro', sans-serif;
+  font-size: 1.5em;
 }
-#group {
-  width: 45%;
-  float: right;
-}
-.external {
-  color: #1d396d;
-  text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
+
+#image {
+margin-bottom: 1%;
 }
 
 /* Style rules for footer content */
 footer {
   text-align: center;
-  font-size: 0.85em;
-  background-color: #1d396d;
-  color: #e3eaf8;
-  padding: 1% 0%;
+  font-size: 0.70em;
+  margin-top: 2em;
 }
-footer a {
-  color: #e3eaf8;
-  text-decoration: none;
-}
+
