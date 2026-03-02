@@ -33,23 +33,26 @@ header h1 {
 nav {
   padding: 1%;
   margin-bottom: 1%;
-  background-color: #e67afcb;
+  background-color: #1d396d;
   position: sticky;
   top:0;
 }
 nav ul {
   list-style-type: none;
   text-align: center;
+  margin: 0;
 }
 nav li {
   display: inline-block;
   font-size: 1.5em;
   font-family: '8612', sans-serif;
   padding: 4%;
+  font-weight: bold;
 }
 nav li a {
   display: block;
-  color: #092834;
+  color: #e3eaf8;
+  padding: 0.5em 2em;
   text-decoration: none;
 }
 
@@ -64,6 +67,9 @@ main {
 
 #image {
 margin-bottom: 1%;
+  width: 45%;
+  float: left;
+  padding: 1%;
 }
 
 /* Style rules for footer content */
@@ -71,5 +77,8 @@ footer {
   text-align: center;
   font-size: 0.70em;
   margin-top: 2em;
+  color: #e3eaf8;
+  backround-color: #1d396d;
+  padding: 1% 0%;
 }
 
